@@ -1,0 +1,12 @@
+# Internal redirects to sections of your site
+/about    /#about    301
+/skills   /#skills   301
+/contact  /#contact  301
+
+# External redirects for social profiles
+/facebook    https://www.facebook.com/ammad.safeer    301
+/instagram   https://www.instagram.com/safeer.ammad/  301
+/website     https://akfs.netlify.app/                301
+
+# Rewrite API calls to a proxy (example)
+/api/*    https://api.example.com/:splat    200
